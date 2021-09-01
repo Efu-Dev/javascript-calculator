@@ -1,0 +1,29 @@
+<div id="top">
+  <h1>JavaScript Calculator</h1>
+  <p>by Diego Faria.</p>
+</div>
+
+<div id="calculator" class="container-fluid">
+    
+  <div id="display" class="container-fluid text-center text-vertical-align">0</div>
+  
+  <div id="keyboard">
+      <button id="one" class="btn btn-secondary numbers" onClick="update(1)">1</button>
+      <button id="two" class="btn btn-secondary numbers" onClick="update(2)">2</button>
+      <button id="three" class="btn btn-secondary numbers" onClick="update(3)">3</button>
+      <button id="add" class="btn btn-success operations" onClick="update('+')">+</button>
+      <button id="four" class="btn btn-secondary numbers" onClick="update(4)">4</button>
+      <button id="five" class="btn btn-secondary numbers" onClick="update(5)">5</button>
+      <button id="six" class="btn btn-secondary numbers" onClick="update(6)">6</button>
+      <button id="subtract" class="btn btn-danger operations" onClick="update('-')">-</button>
+      <button id="seven" class="btn btn-secondary numbers" onClick="update(7)">7</button>
+      <button id="eight" class="btn btn-secondary numbers" onClick="update(8)">8</button>
+      <button id="nine" class="btn btn-secondary numbers" onClick="update(9)">9</button>
+      <button id="multiply" class="btn btn-warning operations" onClick="update('*')">*</button>
+      <button id="clear" class="btn btn-light" onClick="clearDisplay()">AC</button>
+      <button id="zero" class="btn btn-secondary numbers" onClick="update(0)">0</button>
+      <button id="decimal" class="btn btn-secondary numbers" onClick="addDecimal()">.</button>
+      <button id="divide" class="btn btn-info operations" onClick="update('/')">/</button>
+      <button id="equals" class="btn btn-primary" onClick="calculate()">=</button>
+  </div>
+</div>

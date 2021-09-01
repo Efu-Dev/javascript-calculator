@@ -1,0 +1,55 @@
+body{
+  min-width: 300px;
+  min-height: 400px;
+  background-color: #333;
+}
+
+#top{
+  width: 100%;
+  padding-left: 5%;
+  color: white;
+  background-color: #111;
+}
+
+#calculator{
+  padding-top: 10px;
+  font-family: Consolas;
+  margin-top: 5%;
+  background-color: #111;
+  width: 251px;
+  height: 360px;
+}
+
+#equals{
+  width: 100%;
+}
+
+#keyboard{
+  margin-top: 10px;
+}
+
+.numbers, .operations{
+  width: 50px;
+}
+
+#clear{
+  margin-left
+  font-size: 15px;
+  width: 50px;
+}
+
+.operations{
+  width: 50px;
+}
+
+.btn{
+  margin-top: 4px;
+}
+
+#display{
+  word-wrap: break-word;
+  background-color: darkgreen;
+  color: black;
+  height: 115px;
+  width: 100%;
+}
